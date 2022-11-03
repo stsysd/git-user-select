@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-read --allow-run main.ts",
+    "compile": "deno compile --allow-net --allow-env --allow-read --allow-run --output dist/git-user-select main.ts",
+    "install": "deno install --allow-net --allow-env --allow-read --allow-run --name git-user-select main.ts"
+  }
+}
