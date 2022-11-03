@@ -1,0 +1,34 @@
+# git-user-select
+
+select git local user
+
+## Requirements
+
+- git
+- deno
+- fzf
+
+## Instlation
+
+```
+deno task install
+```
+
+## Setting
+
+add fields to `~/.gitconfig` or `~/.config/git/config` : like below
+
+```
+[users "work"]
+name = Yamada Taro
+email = taro@mail.for.work.com
+[users "personal"]
+name = ymd
+email = ymd@mail.for.personal.com
+```
+
+## Use
+
+```
+git user-select
+```
